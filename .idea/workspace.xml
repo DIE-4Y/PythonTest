@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92604d00-83ab-4584-8d0f-564d7cc93600" name="更改" comment="updated some new django files">
+      <change afterPath="$PROJECT_DIR$/.idea/Pyton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/Get的urlencode方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/Post请求爬取百度翻译.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/Post请求爬取详细百度翻译.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/ajax的Get请求爬取豆瓣前10页.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/ajax的Get请求爬取豆瓣第一页电影.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/ajax的Post请求爬取肯德基北京餐厅位置.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/bs4基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/bs4基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/handler处理器的基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/ip代理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/jsonpath基本使用.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/jsonpath基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/jsonpath解析淘票票.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/requests的Get请求.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/requests的Post爬取百度翻译.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/requests的cookie登录古诗文网.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/requests的代理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/selenium交互.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/selenium元素定位.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/selenium基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/selenium获取元素信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/urllib基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/xpath基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/xpath基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/下载.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/十日终焉1172-最新更新章/十日终焉1172章.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/爬取站长之家的图片.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/用cookie爬取qq空间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/获取百度搜索的百度一下.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/请求对象定制.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/myFavorite-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/myFavorite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/prjprocessing_ws.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/dev-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/vendor-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/webpack.dll.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/admin/common/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/admin/common/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/admin/common/Sidebar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/admin/page/account_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/admin/page/favorite_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Draft/python爬虫/Get方法的quote编解码.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/color-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/datasource.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/theme-green/color-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/theme-green/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/theme-green/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/css/theme-green/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/datasource.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/fang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/passwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/shou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/jSignature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/FileSaver.js-master/src/FileSaver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/bootstrap-treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/flashcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/jSignature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/jquery-1.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/jquery-2.2.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/jquery.mockjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/jquery.ui.autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/vendor.dll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.fossaignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.spelling" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bin/xlsx.njs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/00_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/01_version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/02_codepage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/03_consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/04_base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/05_buf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/09_types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/10_ssf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/11_ssfutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/18_cfb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/19_fsutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/20_jsutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/21_ziputils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/22_xmlutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/23_binutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/24_hoppers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/25_cellutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/26_crypto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/27_csfutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/28_binstructs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/29_xlsenum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/30_ctype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/31_rels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/32_odmanrdf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/33_coreprops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/34_extprops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/35_custprops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/36_xlsprops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/38_xlstypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/39_xlsbiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/40_harb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/41_lotus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/42_sstxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/43_sstbin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/44_offcrypto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/45_rtf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/46_stycommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/47_styxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/48_stybin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/49_theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/50_styxls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/52_calcchain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/53_externlink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/54_drawing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/55_vml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/56_cmntcommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/57_cmntxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/58_cmntbin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/59_vba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/60_macrovba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/61_fcommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/62_fxls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/63_fbin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/64_ftab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/65_fods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/66_wscommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/67_wsxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/68_wsbin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/69_chartxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/70_csheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/71_wbcommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/72_wbxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/73_wbbin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/74_xmlbin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/75_xlml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/76_xls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/77_parsetab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/78_writebiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/79_html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/80_parseods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/81_writeods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/82_sheeter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/84_defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/85_parsezip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/86_writezip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/87_read.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/88_write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/90_utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/95_api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/97_node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/98_exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bits/99_footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/book.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/.swiftlint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/SJSPlayground.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/SheetJSCore.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/SheetJSRhino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/chakra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/com/sheetjs/JSHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/com/sheetjs/ObjectNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/com/sheetjs/SheetJSFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/com/sheetjs/SheetJSSheet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/goja.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/main.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/altjs/nashorn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular/SheetJS-angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular/xlsx.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/.angular-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/ionic.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/ionic.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/nscript.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/nscript.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/nsmain.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/package.json-angular2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/package.json-angular4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/package.json-angular5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/src/app/sheetjs.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/angular2/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/array/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/array/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/array/linest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/array/propel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/array/tf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/browserify/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/browserify/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/browserify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/browserify/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/browserify/xlsxworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/chrome/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/FirebaseTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/KnexTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/LowDBTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/MongoDBCRUD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/MongoDBTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/MySQLTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/ObjUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/PgSQLTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/RedisTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SQLiteTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSForage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSKnex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSLowDB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSMongo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSRedis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSSQL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/SheetJSStorage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/database/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/datagrid/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/datagrid/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/datagrid/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/electron/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/electron/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/electron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/electron/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/electron/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/electron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/aftereffects.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/aftereffects.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/estoolkit.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/estoolkit.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/illustrator.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/illustrator.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/indesign.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/indesign.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/photoshop.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/photoshop.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/extendscript/test.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/AzureHTTPTrigger/function.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/AzureHTTPTrigger/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/LambdaProxy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/LambdaProxy/template.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/host.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/local.settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/function/mcstream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/fusebox/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/fusebox/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/fusebox/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/fusebox/fuse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/fusebox/sheetjs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/headless/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/headless/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/headless/chromeless.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/headless/phantomjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/headless/puppeteer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/headless/slimerjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/knockout/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/knockout/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/knockout/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/client/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/client/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/meteor/server/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/nwjs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/nwjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/nwjs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/nwjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/nwjs/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/base64.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/downloadify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/downloadify.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/shim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/swfobject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/oldie/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/parcel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/parcel/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/parcel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/parcel/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/native.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/nexthdr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/pages/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/react-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/react/sheetjs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/requirejs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/requirejs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/requirejs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/requirejs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/requirejs/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/rollup.config.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/rollup.config.worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/rollup/xlsxworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/_cors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/_logit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/hapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/koa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/koasub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/micro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/server/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/app.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/main.simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/test.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/systemjs/xlsxworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/typescript/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/SheetJS-vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/native.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/nuxt.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/pages/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/static/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/static/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/weex.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/vue/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/appworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/coreworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/fullworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/mainworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/webpack.app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/xlsx.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/webpack/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/xhr/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/xhr/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/xhr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/xhr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/xhr/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/demos/xhr/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/00_intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/01_toc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/10_install.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/11_demos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/12_optional.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/15_phil.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/20_import.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/21_readstream.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/25_manip.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/30_export.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/31_writestream.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/40_interface.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/50_csf.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/51_cell.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/52_datatype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/53_wsobject.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/54_shobject.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/55_wbobject.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/56_wbprops.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/57_wbbook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/60_features.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/61_formulae.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/62_colrow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/63_numfmt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/64_cellprops.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/66_comments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/73_sheetprops.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/77_macrovba.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/80_parseopts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/81_writeopts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/82_util.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/85_filetype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/90_test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/95_contrib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/97_license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/docbits/98_reference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/formats.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/formats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/legend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/make.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/docs/SUMMARY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/docs/formats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/docs/legend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/docs/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/flowdeps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/help.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/legend.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/spin.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/ssf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/strip_flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/strip_sourcemap.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/misc/suppress_export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/multiformat.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/fixtures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/fixtures.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/fs_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/make_fixtures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/mocha.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/mocha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/testA.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/xlsx.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/tests/xlsx.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/bin_xlsx.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/doc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/write.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/types/xlsx-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/xlsx.flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/xlsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/xlsxworker.flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/js/xlsx/js-xlsx-master/xlsxworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/picShow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myFavorite/static/vuetable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myfavorite.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/myfavorite.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draft/myFavorite-master/test-5-6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springTerm_2024/MachineLearning/IrisDClassification/DecisionTree/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springTerm_2024/MachineLearning/IrisDClassification/DecisionTree/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DIE-4Y&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6e5ff698-01ab-4892-b54d-7d1824c57868" />
+        <option name="url" value="https://github.com/DIE-4Y/PythonTest.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2g8hrmVWhdPQUkqmFQyQGkOL54m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Get方法的quote编解码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Get的urlencode方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Post请求爬取百度翻译.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Post请求爬取详细百度翻译.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ajax的Get请求爬取豆瓣前10页.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ajax的Get请求爬取豆瓣第一页电影.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ajax的Post请求爬取肯德基北京餐厅位置.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asgi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bs4基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handler处理器的基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ip代理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jsonpath基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jsonpath解析淘票票.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requests的Get请求.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requests的Post爬取百度翻译.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requests的cookie登录古诗文网.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requests的代理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium交互.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium元素定位.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium获取元素信息.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urllib基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wsgi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xpath基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.下载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.十日终焉1172章.executor&quot;: &quot;Run&quot;,
+    &quot;Python.十日终焉爬取.executor&quot;: &quot;Run&quot;,
+    &quot;Python.爬取站长之家的图片.executor&quot;: &quot;Run&quot;,
+    &quot;Python.用cookie爬取qq空间.executor&quot;: &quot;Run&quot;,
+    &quot;Python.获取百度搜索的百度一下.executor&quot;: &quot;Run&quot;,
+    &quot;Python.请求对象定制.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/桌面/代码/Pyton&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\代码\Pyton\Draft\python爬虫" />
+      <recent name="D:\桌面\Code\Pyton\springTerm_2024\MachineTeset_1\djangoProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.十日终焉1172章">
+    <configuration name="十日终焉爬取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/十日终焉爬取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="十日终焉1172章" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫/十日终焉1172-1197章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/十日终焉1172-1197章/十日终焉1172章.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jsonpath解析淘票票" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/jsonpath解析淘票票.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests的代理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/requests的代理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests的Get请求" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/requests的Get请求.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests的Post爬取百度翻译" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/requests的Post爬取百度翻译.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests的cookie登录古诗文网" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Draft/python爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Draft/python爬虫/requests的cookie登录古诗文网.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.十日终焉1172章" />
+        <item itemvalue="Python.requests的cookie登录古诗文网" />
+        <item itemvalue="Python.requests的代理" />
+        <item itemvalue="Python.requests的Post爬取百度翻译" />
+        <item itemvalue="Python.requests的Get请求" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="92604d00-83ab-4584-8d0f-564d7cc93600" name="更改" comment="" />
+      <created>1715085313099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715085313099</updated>
+      <workItem from="1715085314218" duration="431000" />
+      <workItem from="1715088928854" duration="2536000" />
+      <workItem from="1715091599599" duration="412000" />
+      <workItem from="1715497592717" duration="619000" />
+      <workItem from="1715498231903" duration="106000" />
+      <workItem from="1721819651432" duration="2133000" />
+      <workItem from="1722389645057" duration="4825000" />
+      <workItem from="1722591830573" duration="2919000" />
+      <workItem from="1722784373827" duration="971000" />
+      <workItem from="1722912970528" duration="1211000" />
+      <workItem from="1722999200898" duration="1068000" />
+      <workItem from="1723097557294" duration="6506000" />
+      <workItem from="1723167904061" duration="19414000" />
+      <workItem from="1723287993601" duration="1768000" />
+      <workItem from="1723353694345" duration="21390000" />
+      <workItem from="1723422686461" duration="1375000" />
+      <workItem from="1723426920713" duration="16341000" />
+      <workItem from="1723508321880" duration="7886000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated some new django files">
+      <option name="closed" value="true" />
+      <created>1715497982178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715497982178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/homework-3-20" />
+    </ignored-roots>
+    <MESSAGE value="updated some new django files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated some new django files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/DjangoTestProject_1/manage.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pyton$handler.coverage" NAME="handler处理器的基本使用 覆盖结果" MODIFIED="1723196902744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$Getquote.coverage" NAME="Get方法的quote编解码 覆盖结果" MODIFIED="1722412785494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$urls.coverage" NAME="urls 覆盖结果" MODIFIED="1715089132205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/djangoProject_2/djangoProject_2" />
+    <SUITE FILE_PATH="coverage/Pyton$selenium.coverage" NAME="selenium交互 覆盖结果" MODIFIED="1723454254905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$cookieqq.coverage" NAME="用cookie爬取qq空间 覆盖结果" MODIFIED="1723191434976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$jsonpath.coverage" NAME="jsonpath解析淘票票 覆盖结果" MODIFIED="1723384232773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$manage.coverage" NAME="manage 覆盖结果" MODIFIED="1715089065497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/djangoProject_2" />
+    <SUITE FILE_PATH="coverage/Pyton$.coverage" NAME="十日终焉爬取 覆盖结果" MODIFIED="1723381478399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$wsgi.coverage" NAME="wsgi 覆盖结果" MODIFIED="1715089439096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/DjangoTestProject_1/DjangoTestProject_1" />
+    <SUITE FILE_PATH="coverage/Pyton$ajaxPost.coverage" NAME="ajax的Post请求爬取肯德基北京餐厅位置 覆盖结果" MODIFIED="1723190050802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$requests.coverage" NAME="requests的代理 覆盖结果" MODIFIED="1723470650325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$Post.coverage" NAME="Post请求爬取详细百度翻译 覆盖结果" MODIFIED="1723111157460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$urllib.coverage" NAME="urllib基本使用 覆盖结果" MODIFIED="1722412801151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$manage__1_.coverage" NAME="manage (1) 覆盖结果" MODIFIED="1715090829144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/DjangoTestProject_1" />
+    <SUITE FILE_PATH="coverage/Pyton$settings.coverage" NAME="settings 覆盖结果" MODIFIED="1715089444539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/DjangoTestProject_1/DjangoTestProject_1" />
+    <SUITE FILE_PATH="coverage/Pyton$Geturlencode.coverage" NAME="Get的urlencode方法 覆盖结果" MODIFIED="1722785910691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$xpath.coverage" NAME="xpath基本使用 覆盖结果" MODIFIED="1723295948630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$urls__1_.coverage" NAME="urls (1) 覆盖结果" MODIFIED="1715091659334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/DjangoTestProject_1/DjangoTestProject_1" />
+    <SUITE FILE_PATH="coverage/Pyton$ip.coverage" NAME="ip代理 覆盖结果" MODIFIED="1723201522923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$requestsGet.coverage" NAME="requests的Get请求 覆盖结果" MODIFIED="1723454562460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$ajaxGet.coverage" NAME="ajax的Get请求爬取豆瓣第一页电影 覆盖结果" MODIFIED="1723112376549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$asgi.coverage" NAME="asgi 覆盖结果" MODIFIED="1715089448746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springTerm_2024/MachineTeset_1/djangoProject/DjangoTestProject_1/DjangoTestProject_1" />
+    <SUITE FILE_PATH="coverage/Pyton$1172.coverage" NAME="十日终焉1172章 覆盖结果" MODIFIED="1723516206750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫/十日终焉1172-1197章" />
+    <SUITE FILE_PATH="coverage/Pyton$requestsPost.coverage" NAME="requests的Post爬取百度翻译 覆盖结果" MODIFIED="1723455263782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$requestscookie.coverage" NAME="requests的cookie登录古诗文网 覆盖结果" MODIFIED="1723472839275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$ajaxGet10.coverage" NAME="ajax的Get请求爬取豆瓣前10页 覆盖结果" MODIFIED="1723173056829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+    <SUITE FILE_PATH="coverage/Pyton$bs4.coverage" NAME="bs4基本使用 覆盖结果" MODIFIED="1723427892992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Draft/python爬虫" />
+  </component>
+</project>
