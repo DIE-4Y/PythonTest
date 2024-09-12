@@ -4,7 +4,7 @@ import urllib.parse
 # # 法1：直接使用ASCII码
 # url = 'https://cn.bing.com/search?q=%E5%91%A8%E6%9D%B0%E4%BC%A6'
 
-# 法2：用quote将汉族变为ASCII码
+# 法2：用quote将汉语变为ASCII码
 url = 'https://cn.bing.com/search?q='
 original_name = '周杰伦'
 changed_name = urllib.parse.quote(original_name)
