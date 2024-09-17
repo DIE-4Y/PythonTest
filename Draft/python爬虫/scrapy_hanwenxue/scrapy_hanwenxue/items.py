@@ -10,4 +10,11 @@ class ScrapyHanwenxueItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     word = scrapy.Field()
-    mean_list = scrapy.Field()
+    mean = scrapy.Field()
+
+
+class poetryItem(scrapy.Item):
+    title = scrapy.Field()
+    author = scrapy.Field()
+    dynasty = scrapy.Field()
+    content = scrapy.Field()

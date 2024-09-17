@@ -1,5 +1,5 @@
 import scrapy
-
+from ..items import ScrapyHanwenxueItem
 
 class HanSpider(scrapy.Spider):
     name = "han"
@@ -19,7 +19,7 @@ class HanSpider(scrapy.Spider):
                 mean = mean.extract()[2:]
                 mean_list.append(mean)
             # print(type(mean_list), mean_list)
-            yield {word: mean_list}
+            yield ScrapyHanwenxueItem(word=word, mean=mean_list)
 
         if self.page < 27:
             self.page += 1

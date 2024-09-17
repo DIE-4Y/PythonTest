@@ -11,11 +11,13 @@ from itemadapter import ItemAdapter
 class ScrapyHanwenxuePipeline:
     def open_spider(self, spider):
         self.file = open('./HanWenxue/shici.json', 'w', encoding='utf-8')
+        # self.file = open('./HanWenxue/poetry.json', 'w', encoding='utf-8')
 
     def process_item(self, item, spider):
-        self.file.write(json.dumps(item, ensure_ascii=False))
-        # self.file.write(str(item))
+        # self.file.write(json.dumps(item, ensure_ascii=False))
+        self.file.write(str(item))
         return item
+
 
     def close_spider(self, spider):
         self.file.close()
