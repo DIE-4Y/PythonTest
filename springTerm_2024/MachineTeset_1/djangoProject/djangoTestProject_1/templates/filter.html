@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filter标签</title>
+</head>
+<body>
+<h1>cut过滤器</h1>
+<h3>{{ greet }}</h3>
+<h3>{{ greet|cut:" "}}</h3>
+
+<h1>time过滤器</h1>
+<h3>现在时间：{{ time }}</h3>
+<h3>{{ time|date:"Y（年）/m（月）/d（日）" }}</h3>
+
+<h3>default标签</h3>
+<h3>introduction{{ introduction }}</h3>
+<h3>introduction{{ introduction|default:"这个人很懒什么都没留下" }}</h3>
+<div>
+    <h3>safe标签</h3>
+    <p>{{ html }}</p>
+    <p>{{ html|safe }}</p>
+</div>
+</body>
+</html>

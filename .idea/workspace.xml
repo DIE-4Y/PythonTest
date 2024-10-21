@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92604d00-83ab-4584-8d0f-564d7cc93600" name="更改" comment="爬虫练习">
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy_movie/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy_movie/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy_movie/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy_movie/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy_movie/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draft/python爬虫/scrapy_movie/scrapy_movie/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/fallTerm_2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fallTerm_2024/softwareProject/PERSONAL_INFORMATION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,64 +54,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.Get方法的quote编解码.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Get的urlencode方法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Post请求爬取百度翻译.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Post请求爬取详细百度翻译.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ajax的Get请求爬取豆瓣前10页.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ajax的Get请求爬取豆瓣第一页电影.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ajax的Post请求爬取肯德基北京餐厅位置.executor&quot;: &quot;Run&quot;,
-    &quot;Python.asgi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bs4基本使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.carhome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dang.executor&quot;: &quot;Run&quot;,
-    &quot;Python.handler处理器的基本使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ip代理.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jsonpath基本使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jsonpath解析淘票票.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pipelines.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests的Get请求.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests的Post爬取百度翻译.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests的cookie登录古诗文网.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests的代理.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium交互.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium元素定位.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium基本使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium获取元素信息.executor&quot;: &quot;Run&quot;,
-    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.spider_58.executor&quot;: &quot;Run&quot;,
-    &quot;Python.urllib基本使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.urls (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wsgi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.xpath基本使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.下载.executor&quot;: &quot;Run&quot;,
-    &quot;Python.十日终焉1172章.executor&quot;: &quot;Run&quot;,
-    &quot;Python.十日终焉爬取.executor&quot;: &quot;Run&quot;,
-    &quot;Python.爬取站长之家的图片.executor&quot;: &quot;Run&quot;,
-    &quot;Python.用cookie爬取qq空间.executor&quot;: &quot;Run&quot;,
-    &quot;Python.获取百度搜索的百度一下.executor&quot;: &quot;Run&quot;,
-    &quot;Python.请求对象定制.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/桌面/代码/Pyton&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.Get方法的quote编解码.executor": "Run",
+    "Python.Get的urlencode方法.executor": "Run",
+    "Python.Post请求爬取百度翻译.executor": "Run",
+    "Python.Post请求爬取详细百度翻译.executor": "Run",
+    "Python.ajax的Get请求爬取豆瓣前10页.executor": "Run",
+    "Python.ajax的Get请求爬取豆瓣第一页电影.executor": "Run",
+    "Python.ajax的Post请求爬取肯德基北京餐厅位置.executor": "Run",
+    "Python.asgi.executor": "Run",
+    "Python.bs4基本使用.executor": "Run",
+    "Python.carhome.executor": "Run",
+    "Python.dang.executor": "Run",
+    "Python.handler处理器的基本使用.executor": "Run",
+    "Python.ip代理.executor": "Run",
+    "Python.jsonpath基本使用.executor": "Run",
+    "Python.jsonpath解析淘票票.executor": "Run",
+    "Python.manage (1).executor": "Run",
+    "Python.manage.executor": "Run",
+    "Python.pipelines.executor": "Run",
+    "Python.requests的Get请求.executor": "Run",
+    "Python.requests的Post爬取百度翻译.executor": "Run",
+    "Python.requests的cookie登录古诗文网.executor": "Run",
+    "Python.requests的代理.executor": "Run",
+    "Python.selenium交互.executor": "Run",
+    "Python.selenium元素定位.executor": "Run",
+    "Python.selenium基本使用.executor": "Run",
+    "Python.selenium获取元素信息.executor": "Run",
+    "Python.settings.executor": "Run",
+    "Python.spider_58.executor": "Run",
+    "Python.urllib基本使用.executor": "Run",
+    "Python.urls (1).executor": "Run",
+    "Python.urls.executor": "Run",
+    "Python.wsgi.executor": "Run",
+    "Python.xpath基本使用.executor": "Run",
+    "Python.下载.executor": "Run",
+    "Python.十日终焉1172章.executor": "Run",
+    "Python.十日终焉爬取.executor": "Run",
+    "Python.爬取站长之家的图片.executor": "Run",
+    "Python.用cookie爬取qq空间.executor": "Run",
+    "Python.获取百度搜索的百度一下.executor": "Run",
+    "Python.请求对象定制.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/桌面/代码/Pyton/fallTerm_2024/softwareProject/DontReciteEnglish",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\桌面\代码\Pyton\Draft\python爬虫" />
@@ -300,6 +284,8 @@
       <workItem from="1725012461768" duration="769000" />
       <workItem from="1726020422840" duration="1580000" />
       <workItem from="1726043667242" duration="628000" />
+      <workItem from="1729511224884" duration="129000" />
+      <workItem from="1729511680771" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="updated some new django files">
       <option name="closed" value="true" />

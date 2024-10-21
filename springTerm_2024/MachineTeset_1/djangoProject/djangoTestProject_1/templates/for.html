@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for标签</title>
+</head>
+<body>
+<h1>遍历列表</h1>
+<table>
+    <thead>
+        <tr>
+            <th>书名</th>
+            <th>作者</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for book in books reversed%}
+        <tr>
+            <td>{{ forloop.counter}}</td>
+            <td>{{ book.name }}</td>
+            <td>{{ book.author }}</td>
+        </tr>
+    {% empty %}    
+        <h3>没有书</h3>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h1>遍历字典</h1>
+<div>
+    {% for key,value in person.items %}
+        <p>{{ key }}:{{ value }}</p>
+    {% endfor %}
+</div>
+</body>
+</html>

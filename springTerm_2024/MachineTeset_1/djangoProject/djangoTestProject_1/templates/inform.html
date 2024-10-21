@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inform</title>
+</head>
+<body>
+    <h1 style="color: brown">
+        直接传递变量：{{ selfintroduction }}
+    </h1>
+    <h2>
+        用数组传递：{{ book.id }}
+        {{ book.name }}
+        {{ book.author }}
+    </h2>
+    <h2>
+        用列表传递：{{ books.0 }}
+    </h2>
+    <h2>
+        列表中的第二本书：{{ books.1.name }}
+    </h2>
+    <h2>
+        用类传递：我的真实名称是{{ person.realnaem }}
+    </h2>
+</body>
+</html>

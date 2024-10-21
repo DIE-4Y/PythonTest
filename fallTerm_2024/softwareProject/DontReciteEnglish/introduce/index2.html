@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="./jquery-3.4.1/jquery-3.4.1.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      touch-action: pan-y;
+    }
+    body {
+      height: 100%;
+    }
+
+    #wrap {
+      overflow: hidden;
+      width: 100%;
+      background-color: rgb(225, 207, 210);
+    }
+
+    #main {
+      top: 0;
+      position: relative;
+    }
+
+    .page {
+      width: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #pageUl {
+      position: fixed;
+      right: 30px;
+      list-style-type: none;
+    }
+    .pageUlLi {
+      width: 180px;
+      font-size: 24px;
+      text-align: center;
+      color: rgba(0,0,0,0.3);
+    }
+    #pageUlLi1{
+      background-color: rgba(128, 183, 185,0.5) ;
+      color: black ;
+    }
+    #lunBo{
+      height: 65%;
+      width: 80%;
+      display: flex;
+      margin: 5%  0 0 5%;
+
+    }
+
+    .imgBox1{
+      flex: 1;
+      overflow: hidden;
+      transition: .5s;
+      margin: 0 20px;
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+      border-radius: 30px;
+    }
+    .imgBox1 img{
+      width: 200%;
+      height: 90%;
+      object-fit: cover;
+      transition: 0.5s;
+    }
+    .imgBox1 p{
+      font-size: 24px;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .imgBox1:hover{
+      flex-basis: 40%;
+
+    }
+    .imgBox1:hover>img{
+      width: 100%;
+      height: 100%;
+    }
+   
+    .info{
+      padding-left: 22%;
+      width: 50%;
+      height: 70%;
+      padding-top: 10%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .leftBox{
+      width: 30%;
+      height: 90%;
+      background-color: rgb(242, 242, 242);
+    }
+    .rightBox{
+      width: 50%;
+      height: 90%;
+      z-index: 5;
+      background-color: white;
+    }
+    .bg{
+      
+      background-color: rgb(65, 68, 74);
+      width: 90%;
+      height: 20%;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    .photo{
+      margin-top: 2%;
+      margin-left: 7.2%;
+      width: 30%;
+      height: 200%;
+    }
+    .imgBox0{
+      margin-top: 70%;
+      font-size: 90px;
+      margin-left: 30%;
+      overflow: hidden;
+     
+    }
+    .text{
+      width: 80%;
+      height: 7%;
+      margin-left: 10%;
+      padding-top: 9%;
+      border-bottom: 5px solid black;
+      font-size: 40px;
+    }
+    .title{
+      width: 80%;
+      height: 8%;
+      margin-left: 10%;
+      padding-top: 7%;
+      border-bottom: 5px solid black;
+      font-size: 36px;
+      color: red;
+      text-align: center;
+    }
+    .title1{
+      width: 80%;
+      height: 8%;
+      margin-left: 10%;
+      padding-top: 7%;
+      font-size: 36px;
+      color: black;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div id="wrap">
+      <div id="main">
+        
+        <ul id="pageUl" type="circle">
+          <li id="pageUlLi1"  class="pageUlLi" >我们的团队</li>
+          <li  class="pageUlLi">&nbsp;曾健辉</li>
+          <li  class="pageUlLi">&nbsp;金川皓</li>
+          <li  class="pageUlLi">&nbsp;陈善权</li>
+          <li  class="pageUlLi">&nbsp;王妍姝</li>
+          <li  class="pageUlLi">&nbsp;吴佳霖</li>
+        </ul>
+        <div class="page" >
+
+          <div class="title1">
+            团队介绍
+          </div>
+          <div id="lunBo">
+            <div class="imgBox1">
+              <img src="./img/微信图片_20241012004600.jpg" alt="">
+              <p>曾健辉</p>
+            </div>
+
+            <div class="imgBox1">
+              <img src="./img/微信图片_20241012004618.jpg" alt="">
+              <p>金川皓</p>
+            </div>
+
+            <div class="imgBox1">
+              <img src="./img/微信图片_20241012004623.jpg" alt="">
+              <p>陈善权</p>
+            </div>
+
+            <div class="imgBox1">
+              <img src="./img/微信图片_20241012004629.jpg" alt="">
+              <p>王妍姝</p>
+            </div>
+
+            <div class="imgBox1">
+              <img src="./img/微信图片_20241012004636.jpg" alt="">
+              <p>吴佳霖</p>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="page" >
+          
+          <div class="info">
+            <div class="bg">
+              <img src="./img/dingchun.jpg" class="photo" alt="">
+            
+            </div>
+            <div class="leftBox">
+              <div class="imgBox0">
+                曾
+                <br>
+                健
+                <br>
+                辉
+              </div>
+              
+            </div>
+
+            <div class="rightBox">
+              <div class="title">
+                <前端>
+              </div>
+              <div class="text">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专长在于前端开发
+              </div>
+              <div class="text">
+                以及Java技术，拥有
+              </div>
+
+              <div class="text">
+                移动应用开发经验，
+              </div>
+
+              <div class="text">
+                同时熟练掌握微信小
+              </div>
+
+              <div class="text">
+                程序的实战应用。
+              </div>
+              <div class="text">
+                
+              </div>
+             
+            </div>
+           
+          </div>
+        </div>
+        <div class="page" >
+          
+          <div class="info">
+            <div class="bg">
+              <img src="./img/微信图片_20241012005630.jpg" class="photo" alt="">
+            
+            </div>
+            <div class="leftBox">
+              <div class="imgBox0">
+                金
+                <br>
+                川
+                <br>
+                皓
+              </div>
+              
+            </div>
+
+            <div class="rightBox">
+              <div class="title">
+                <后端>
+              </div>
+              <div class="text">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熟练掌握后端开发
+              </div>
+              <div class="text">
+                以及Python技术，有
+              </div>
+
+              <div class="text">
+                一定算法基础,同时拥
+              </div>
+
+              <div class="text">
+                有Django框架的实战
+              </div>
+
+              <div class="text">
+                经验。
+              </div>
+              <div class="text">
+                
+              </div>
+              
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="page" >
+          
+          <div class="info">
+            <div class="bg">
+              <img src="./img/微信图片_20241012012934.jpg" class="photo" alt="">
+            
+            </div>
+            <div class="leftBox">
+              <div class="imgBox0">
+                陈
+                <br>
+                善
+                <br>
+                权
+              </div>
+              
+            </div>
+
+            <div class="rightBox">
+              <div class="title">
+                <后端>
+              </div>
+              <div class="text">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专长后端开发以
+              </div>
+              <div class="text">
+                及Python语言，具备
+              </div>
+
+              <div class="text">
+                扎实的算法基础，并
+              </div>
+
+              <div class="text">
+                且拥有Django开发的
+              </div>
+
+              <div class="text">
+                实战经验。
+              </div>
+              <div class="text">
+                
+              </div>
+             
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="page" >
+          
+          <div class="info">
+            <div class="bg">
+              <img src="./img/微信图片_20241012012939.jpg" class="photo" alt="">
+            
+            </div>
+            <div class="leftBox">
+              <div class="imgBox0">
+                王
+                <br>
+                妍
+                <br>
+                姝
+              </div>
+              
+            </div>
+
+            <div class="rightBox">
+              <div class="title">
+                <前端>
+              </div>
+              <div class="text">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专长在于前端以及
+              </div>
+              <div class="text">
+                Python语言，拥有深
+              </div>
+
+              <div class="text">
+                厚的数据库设计基
+              </div>
+
+              <div class="text">
+                础，同时熟练掌握
+              </div>
+
+              <div class="text">
+                VUE框架的实战应
+              </div>
+              <div class="text">
+                用。
+              </div>
+              <div class="text">
+                
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="page" >
+          
+          <div class="info">
+            <div class="bg">
+              <img src="./img/微信图片_20241012012944.jpg" class="photo" alt="">
+            
+            </div>
+            <div class="leftBox">
+              <div class="imgBox0">
+                吴
+                <br>
+                佳
+                <br>
+                霖
+              </div>
+              
+            </div>
+
+            <div class="rightBox">
+              <div class="title">
+                <后端>
+              </div>
+              <div class="text">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;精通人工智能及机
+              </div>
+              <div class="text">
+                器学习技术，擅长使
+              </div>
+
+              <div class="text">
+                用Python进行深度学
+              </div>
+
+              <div class="text">
+                习模型开发，同时拥
+              </div>
+
+              <div class="text">
+                有PyTorch框架的丰
+              </div>
+              <div class="text">
+                富实战经验。
+              </div>
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    window.onload = resizeImages;
+    window.onresize = resizeImages;
+    console.log(document.documentElement.clientHeight,1);
+    
+    function resizeImages() {
+      $(function (e) {
+        let screenWeight = document.documentElement.clientWidth;
+        let screenHeight = document.documentElement.clientHeight;
+        console.log(document.documentElement.clientHeight,2);
+        $("[name=pageImg]")
+          .css("width", screenWeight)
+          .css("height", screenHeight);
+        $("#pageUl").css("bottom", screenHeight >> 1);
+      });
+    }
+
+    let index = 1;
+    let curIndex = 1;
+    const wrap = document.getElementById("wrap");
+    const main = document.getElementById("main");
+    let hei = document.documentElement.clientHeight;
+    wrap.style.height = hei + "px";
+    const obj = document.getElementsByClassName('page')
+    for (let i = 0; i < obj.length; i++) {
+        obj[i].style.height = hei + "px";
+      
+    }
+    
+
+        
+    
+    
+    
+    let pageNum = obj.length;
+    let startTime = 0,
+      endTime = 0,
+      now = 0;
+
+    //浏览器兼容
+    if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
+      document.addEventListener("DOMMouseScroll", scrollFun, false);
+    } else if (document.addEventListener) {
+      document.addEventListener("mousewheel", scrollFun, false);
+    } else if (document.attachEvent) {
+      document.attachEvent("onmousewheel", scrollFun);
+    } else {
+      document.onmousewheel = scrollFun;
+    }
+
+    function scrollFun(event) {
+      
+      startTime = new Date().getTime();
+      let delta = event.detail || -event.wheelDelta;
+
+      if (endTime - startTime < -3000) {
+        if (delta > 0 && parseInt(main.offsetTop) > -(hei * (pageNum - 1))) {
+          index++;
+          toPage(index);
+        }
+        if (delta < 0 && parseInt(main.offsetTop) < 0) {
+          index--;
+          toPage(index);
+        }
+        endTime = new Date().getTime();
+      } else {
+        event.preventDefault();
+      }
+    }
+
+    function toPage(idx) {
+      if (idx != curIndex) {
+        index = idx;
+        let delta = idx - curIndex;
+        now = now - delta * hei;
+        $("#main").animate(
+          {
+            top: now + "px",
+          },
+          500
+        );
+        curIndex = idx;
+        turnColor(idx)
+       
+      }
+    }
+
+    const button = document.getElementsByClassName('pageUlLi')
+    for (let i = 0; i < button.length; i++)
+    {
+      button[i].addEventListener('click',()=>{
+        toPage(i + 1)
+      })
+      
+    }
+
+    function turnColor(i){
+      $(".pageUlLi").css("color", "rgba(0,0,0,0.3)").css('background-color','transparent');
+      button[i - 1].style.color = "black"
+      button[i - 1].style.backgroundColor = 'rgba(128, 183, 185,0.5)'
+    }
+    const imgBox = document.getElementsByClassName('imgBox1')
+    imgBox[0].addEventListener("click", ()=>{
+      toPage(2)
+      
+      
+    })
+    imgBox[1].addEventListener("click", ()=>{
+      toPage(3)
+    })
+    imgBox[2].addEventListener("click", ()=>{
+      toPage(4)
+    })
+    imgBox[3].addEventListener("click", ()=>{
+      toPage(5)
+    })
+    imgBox[4].addEventListener("click", ()=>{
+      toPage(6)
+    })
+  </script>
+</html>
