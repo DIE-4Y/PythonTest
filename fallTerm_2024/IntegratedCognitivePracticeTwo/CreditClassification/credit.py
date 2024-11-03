@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 # 读取数据
-data = pd.read_csv('./credit-a.csv', header=None)
+data = pd.read_csv('credit-a.csv', header=None)
 print(data)
 
 data = data.apply(pd.to_numeric, errors='coerce')

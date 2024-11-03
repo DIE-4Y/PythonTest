@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv("./Income1.csv")
+data = pd.read_csv("Income1.csv")
 
 print(data)
 

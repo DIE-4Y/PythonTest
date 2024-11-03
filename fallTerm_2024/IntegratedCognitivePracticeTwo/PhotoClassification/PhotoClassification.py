@@ -8,8 +8,8 @@ import torchvision
 from torchvision import transforms
 
 # 设置训练集和数据集相对的地址
-train_dir = r'class_2/train'
-test_dir = r'class_2/test'
+train_dir = '2_class/train'
+test_dir = '2_class/test'
 
 # 数据预处理 转为tensor张量 归一化
 transform = transforms.Compose([
@@ -64,15 +64,15 @@ id_to_class = dict((v, k) for k, v in train_ds.class_to_idx.items())
 print(id_to_class)
 
 # 依照批次绘制前六张图片
-plt.figure(figsize=(12, 8))
-for i, (img, label) in enumerate(zip(imgs[:6], labels[:6])):
-    img = (img.permute(1, 2, 0).numpy() + 1) / 2
-    plt.subplot(2, 3, i + 1)
-    plt.title(id_to_class.get(label.item()))
-    plt.xticks([])
-    plt.yticks([])
-    plt.imshow(img)
-    plt.show()
+# plt.figure(figsize=(12, 8))
+# for i, (img, label) in enumerate(zip(imgs[:6], labels[:6])):
+#     img = (img.permute(1, 2, 0).numpy() + 1) / 2
+#     plt.subplot(2, 3, i + 1)
+#     plt.title(id_to_class.get(label.item()))
+#     plt.xticks([])
+#     plt.yticks([])
+#     plt.imshow(img)
+#     plt.show()
 
 
 class Net(nn.Module):
@@ -107,7 +107,7 @@ print("pred.shape" + str(pred.shape))
 print(torch.argmax(pred, 1))
 
 loss_fn = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=0.005)
+optimizer = optim.Adam(model.parameters(), lr=0.003)
 
 
 def train(dataloader, model, loss_fn, optimiser):
