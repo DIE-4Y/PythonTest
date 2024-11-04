@@ -1,8 +1,14 @@
 import requests
 from lxml import etree
 
-# 网站 https://m.hafuklxt.cc
-"""自动爬取给出地址到最后章节的内容"""
+"""
+自动爬取给出地址到最后章节的内容
+网站--》 https://m.hafuklxt.cc 
+可以在main中修改书籍起始地址
+page=‘’修改为一章几页
+非异步下载章节较多，下载较慢建议耐心等待
+headers里的uer-agent可以修改为自己浏览器的
+"""
 
 def get_tree(url):
     headers = {
@@ -25,25 +31,33 @@ def down_load(tree):
     page = '第(1/3)页'
     if chapter_1[1] == page:
         # 如果是第每章一页 那么需额外下载列表中第1个元素 即标题
-        with open('1172-1199.txt', 'a', encoding='utf-8') as file:
+        with open('十日终焉.txt', 'a', encoding='utf-8') as file:
             file.write('\n'+chapter_1[0][2:]+'\n')
             for i in range(len(changed_chapter_1)):
                 file.write('    ' + changed_chapter_1[i] + '\n')
     else:
         # 只下载主体内容
-        with open('1172-1199.txt', 'a', encoding='utf-8') as file:
+        with open('十日终焉.txt', 'a', encoding='utf-8') as file:
             for i in range(len(changed_chapter_1)):
                 file.write('    ' + changed_chapter_1[i] + '\n')
 
 
 # （1）请求1172章1/3页
 if __name__ == '__main__':
-    book_url = 'https://m.hafuklxt.cc/book/24110052/'
+
+    """
+    book_url添加是本书第一章第一页的地址 也是循环结束标志 必须添加！！！！！！
+    需要修改的是now_url
+    《十日终焉》是3页一章
     # 1171章1/3页url
     # https://m.hafuklxt.cc/chapter/24110052/66013622.html
     # 1199章3/3页url
     # https://m.hafuklxt.cc/chapter/24110052/64644756_3.html
-    now_url = 'https://m.hafuklxt.cc/chapter/24110052/66013622.html'
+    """
+
+    book_url = 'https://m.hafuklxt.cc/book/24110052/'
+
+    now_url = 'https://m.hafuklxt.cc/chapter/24110052/67334572.html'
 
     next_url = ''
 
