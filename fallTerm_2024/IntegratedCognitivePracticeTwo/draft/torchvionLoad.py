@@ -3,7 +3,6 @@ import torchvision
 from torch.utils.data import dataloader
 from torchvision.transforms import ToTensor
 import matplotlib.pyplot as plt
-import numpy as np
 from torch import nn
 from torch.optim import SGD
 
