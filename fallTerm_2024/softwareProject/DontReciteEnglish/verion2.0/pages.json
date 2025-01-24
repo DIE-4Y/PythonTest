@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/review",
+			"style": {
+				"navigationBarTitleText": "回顾复习"
+			}
+		},{
+			"path": "pages/index/studying",
+			"style": {
+				"navigationBarTitleText": "开始学习"
+			}
+		},{
+			"path": "pages/index/myself",
+			"style": {
+				"navigationBarTitleText": "个人设置"
+			}
+		},
+		{
+			"path": "pages/index/target",
+			"style": {
+				"navigationBarTitleText": "设置目标"
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "查找"
+			}
+		},
+		{
+			"path": "pages/index/study",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		
+		{
+			"path": "pages/login/enroll",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/forgetPassword1",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		}
+		
+	],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"uniIdRouter": {}
+}

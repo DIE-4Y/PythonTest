@@ -5,7 +5,7 @@ import json
 """修改数据库的 用户名 密码 数据库名称 为自己的 再运行这个文件"""
 db_config = {
     'user': 'root',
-    'password': 'root',
+    'password': 'jch040208',
     'host': '127.0.0.1',
     'database': 'dontreciteenglish'
 }
@@ -38,7 +38,6 @@ def insert_json_to_db(json_file):
                 VALUES (%s, %s, %s, %s)
             ''', (author, content, dynasty, title))
         conn.commit()
-
 # 使用函数将JSON文件插入到数据库中
 insert_json_to_db('poetry.json')
 

@@ -6,10 +6,13 @@ from django.contrib.auth.models import AbstractUser
 class User(AbstractUser):
     username = models.CharField(max_length=20, primary_key=True)
     email = models.EmailField(unique=True)
-    # photo = models.ImageField(upload_to='media', null=True)
     photo = models.CharField(max_length=200, null=True)
     name = models.CharField(max_length=40, null=True)
-
+    nailong = models.IntegerField(default=0)
+    coin = models.IntegerField(default=0)
+    goal = models.IntegerField(default=0)
+    recitation = models.IntegerField(default=0)
+    date = models.DateField(auto_now_add=True, null=True)
     class Meta:
         db_table = 'user'
 

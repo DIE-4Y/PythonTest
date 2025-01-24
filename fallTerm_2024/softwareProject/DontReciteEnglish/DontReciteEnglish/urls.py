@@ -15,13 +15,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.http import HttpResponse
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+def index(request):
+    return HttpResponse("这是首页")
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index),
     path('user/', include('user.urls')),
+    path('book/', include('book.urls'))
 ]
 
 # 允许所有media文件被访问

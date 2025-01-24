@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "user"
+    "user",
+    "book",
+    "app01",
 ]
 
 MIDDLEWARE = [
@@ -81,7 +83,7 @@ DATABASES = {
         'NAME': "dontreciteenglish",
         "HOST": "localhost",
         "USER": "root",
-        "PASSWORD": "root",
+        "PASSWORD": "jch040208",
         "PROT": "3306",
     }
 }
@@ -119,10 +121,11 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
+MEDIA_URL = 'media/'
 # 添加文件上传路径
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/review",
+    "pages/index/studying",
+    "pages/index/myself",
+    "pages/index/target",
+    "pages/index/search",
+    "pages/index/study",
+    "pages/login/enroll",
+    "pages/login/forgetPassword1"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
